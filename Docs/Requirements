@@ -1,1 +1,67 @@
+# 📊 Tableau User Story | Sales Performance
 
+## 📝 Introduction
+
+This user story outlines the specifications for building two interactive dashboards in Tableau to help stakeholders—including sales managers and executives—analyze sales performance and customer behavior effectively.
+
+---
+
+## 📈 Sales Dashboard | Requirements
+
+### 🎯 Dashboard Purpose  
+To provide an overview of key sales metrics and trends, enabling year-over-year analysis and actionable insights into sales performance.
+
+### ✅ Key Requirements
+
+🔹 KPI Overview  
+- Display total sales, profit, and quantity for the current and previous year.
+
+🔹 Sales Trends  
+- Show monthly trends for each KPI for both current and previous years.  
+- Highlight months with the highest and lowest sales.
+
+🔹 Product Subcategory Comparison  
+- Compare sales performance by product subcategories (current vs previous year).  
+- Include sales vs profit comparisons.
+
+🔹 Weekly Trends for Sales & Profit  
+- Show weekly sales and profit data for the current year.  
+- Display average weekly values.  
+- Highlight weeks that are above or below average.
+
+---
+
+## 👥 Customer Dashboard | Requirements
+
+### 🎯 Dashboard Purpose  
+To provide insights into customer trends, behaviors, and segmentation, supporting marketing and management strategies for better customer satisfaction.
+
+### ✅ Key Requirements
+
+🔹 KPI Overview  
+- Display total number of customers, sales per customer, and total number of orders for both the current and previous year.
+
+🔹 Customer Trends  
+- Monthly trends for each KPI (current vs previous year).  
+- Highlight months with the highest and lowest sales.
+
+🔹 Customer Distribution by Number of Orders  
+- Visualize customer distribution based on order frequency.  
+- Gain insights into customer loyalty and engagement.
+
+🔹 Top 10 Customers by Profit  
+- Display top 10 customers by profit generated.  
+- Show details like rank, number of orders, sales, profit, and last order date.
+
+---
+
+## 🎨 Design & Interactivity Requirements
+
+### 🔄 Dashboard Dynamics  
+- Allow users to select any desired year for historical comparison.  
+- Provide easy navigation between Sales and Customer dashboards.  
+- Enable interactive charts and graphs with click-based filters.
+
+### 🧮 Data Filters  
+- Filters by Product: category, subcategory  
+- Filters by Location: region, state, city
